@@ -36,6 +36,7 @@ setup(
     download_url='https://github.com/navinsylvester/cinephile/tarball/master',
     install_requires=[
         'PyYAML >= 3.10',
+        'argparse >= 1.2'
     ],
     py_modules=['cinephile'],
     data_files=['cinephile.yaml'],
